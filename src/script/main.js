@@ -1,3 +1,4 @@
+import "./view/data-source.js";
 const main = () => {
   let slideIndex = 1;
   const slides = document.getElementsByClassName("slide");

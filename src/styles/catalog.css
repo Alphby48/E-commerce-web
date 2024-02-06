@@ -1,0 +1,39 @@
+section {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+}
+section .catalog {
+  width: 20%;
+  background-color: rgb(248, 248, 248);
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(194, 191, 191, 0.543);
+}
+section .catalog h3 {
+  font-size: 1.5rem;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px rgba(53, 50, 50, 0.201);
+}
+section .catalog ul {
+  list-style: none;
+  line-height: 3;
+}
+section .catalog ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "poppins";
+  font-weight: 500;
+  text-transform: capitalize;
+  gap: 5px;
+  color: rgb(61, 57, 57);
+  text-shadow: 2px 2px 1px rgba(53, 50, 50, 0.201);
+}
+section .catalog ul li a img {
+  width: 20px;
+}

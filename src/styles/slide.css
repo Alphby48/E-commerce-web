@@ -2,6 +2,7 @@
   width: 100%;
   position: relative;
   padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 .slide {
@@ -11,7 +12,8 @@
 
 .slide-image {
   width: 100%;
-  height: 60vh;
+  height: 65vh;
+  border-radius: 20px;
   object-fit: cover;
   /* filter: brightness(0.7); */
 }
@@ -137,8 +139,8 @@
 
 .slider-nav {
   position: absolute;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 1.2rem;
+  right: 1.2rem;
   /* z-index: 5; */
   display: flex;
   align-items: center;

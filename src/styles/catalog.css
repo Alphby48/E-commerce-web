@@ -2,6 +2,7 @@ section {
   width: 100%;
   display: flex;
   padding: 1rem;
+  justify-content: space-between;
 }
 section .catalog {
   width: 20%;

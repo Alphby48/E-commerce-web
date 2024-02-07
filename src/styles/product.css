@@ -28,7 +28,7 @@
   border-radius: 20px;
   border: 1px solid rgba(194, 191, 191, 0.543);
 }
-.product .list-product .item-product img {
+.product .list-product .item-product #listImage {
   width: 100px;
 }
 .product .list-product .item-product h4 {
@@ -81,12 +81,21 @@
   padding: 2rem;
   border-radius: 5px;
 }
-.pop-up img {
+.pop-up .img-pp {
   width: 400px;
   margin-bottom: 1rem;
 }
-.pop-up button {
-  position: absolute;
+.span-harga {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.span-harga h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.pop-up .span-harga a .btn-chc {
   font-size: 1rem;
   padding: 2px 3px;
   font-family: "Poppins", sans-serif;
@@ -98,6 +107,16 @@
   color: white;
   text-transform: capitalize;
   cursor: pointer;
-  top: 0;
-  right: 0;
+}
+.lemek .pop-up .btnpp {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+}
+.pop-up .btnpp i {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
 }

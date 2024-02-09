@@ -1,4 +1,5 @@
-import "./view/data-source.js";
+import "./view/produk-source.js";
+import "./view/search-source.js";
 const main = () => {
   let slideIndex = 1;
   const slides = document.getElementsByClassName("slide");

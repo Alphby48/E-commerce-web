@@ -23,9 +23,11 @@ main .find .logo h3 {
   font-style: normal;
   font-size: 1.5rem;
 }
-
-main .find .search-bar {
+main .find .bc-sc-bar {
   width: 50%;
+}
+main .find .search-bar {
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -129,4 +131,43 @@ main .navbar ul .menu-down:hover .ul-down ul {
 main .navbar ul .menu-down:hover .ul-down ul li {
   width: 150px;
   padding: 10px;
+}
+.search-list {
+  display: none;
+  position: absolute;
+  left: 30px;
+  top: 100px;
+  right: 15px;
+  min-height: 100vh;
+  background-color: rgba(102, 93, 93, 0.623);
+  z-index: 7;
+  padding: 1rem;
+  border-radius: 15px;
+  gap: 1rem;
+}
+.btn-close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
+.btn-close i {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+}
+
+.placeholder {
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 1px rgba(53, 50, 50, 0.616);
 }

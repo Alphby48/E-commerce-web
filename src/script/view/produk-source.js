@@ -1,4 +1,4 @@
-import stores from "./../database/store.js";
+import stores from "../database/store.js";
 
 const listProduk = document.querySelector(".list-product");
 

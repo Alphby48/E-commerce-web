@@ -19,7 +19,7 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-.product .list-product .item-product {
+.item-product {
   display: flex;
   flex-direction: column;
   background-color: rgb(248, 248, 248);
@@ -28,10 +28,11 @@
   border-radius: 20px;
   border: 1px solid rgba(194, 191, 191, 0.543);
 }
-.product .list-product .item-product #listImage {
+.item-product #listImage,
+#listImages {
   width: 100px;
 }
-.product .list-product .item-product h4 {
+.item-product h4 {
   font-size: 1rem;
   font-family: "Caveat Brush", cursive;
   font-weight: 400;
@@ -39,14 +40,14 @@
   max-width: 150px;
   text-align: center;
 }
-.product .list-product .item-product p {
+.item-product p {
   font-size: 0.8rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: blueviolet;
 }
-.product .list-product .item-product button {
+.item-product button {
   font-size: 0.7rem;
   padding: 2px 3px;
   font-family: "Poppins", sans-serif;
@@ -80,6 +81,7 @@
   align-items: center;
   padding: 2rem;
   border-radius: 5px;
+  z-index: 10;
 }
 .pop-up .img-pp {
   width: 400px;

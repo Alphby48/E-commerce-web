@@ -41,6 +41,20 @@ const stores = [
     harga: "69.900",
     link: "https://tokopedia.link/9yXqBgRH2Gb",
   },
+  {
+    imgPrdt:
+      "https://down-bs-id.img.susercontent.com/id-11134207-7r98u-lp09e0ocubt9aa.webp",
+    jdlPrdt: "Jaket Hoodie Aerostreet Hitam Sweater",
+    harga: "135.900",
+    link: "https://shope.ee/603EAW52IV",
+  },
+  {
+    imgPrdt:
+      "https://down-bs-id.img.susercontent.com/id-11134207-7r98o-llknp6fpe4doe9.webp",
+    jdlPrdt: "Photocard JKT48 Unofficial",
+    harga: "1.752",
+    link: "https://shope.ee/LOrQEsNhE",
+  },
   // {
   //   imgPrdt: "",
   //   jdlPrdt: "",

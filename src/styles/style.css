@@ -73,3 +73,9 @@ header .help i {
 header .help h4 {
   font-size: 12px;
 }
+
+@media (max-width: 700px) {
+  header .social-bar {
+    display: none;
+  }
+}

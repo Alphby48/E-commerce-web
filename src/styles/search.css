@@ -134,11 +134,13 @@ main .navbar ul .menu-down:hover .ul-down ul li {
 }
 .search-list {
   display: none;
+  flex-wrap: wrap;
+  justify-content: center;
   position: absolute;
   left: 30px;
   top: 100px;
   right: 15px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: rgba(102, 93, 93, 0.623);
   z-index: 7;
   padding: 1rem;
@@ -170,4 +172,53 @@ main .navbar ul .menu-down:hover .ul-down ul li {
   font-style: normal;
   text-transform: capitalize;
   text-shadow: 2px 2px 1px rgba(53, 50, 50, 0.616);
+}
+
+@media (max-width: 700px) {
+  main .find {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .find .about {
+    display: none;
+  }
+
+  main .find .bc-sc-bar {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  main .find .search-bar {
+    gap: 10px;
+  }
+
+  main .find .search-bar input {
+    width: 80%;
+  }
+
+  main .find .search-bar button {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px 13px;
+  }
+
+  main .navbar {
+    display: none;
+  }
+
+  .search-list {
+    left: 5px;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn-close {
+    top: -10px;
+    right: -10px;
+  }
+  .btn-close i {
+    font-size: 3rem;
+  }
 }

@@ -141,16 +141,41 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    justify-content: space-between;
+    gap: 0;
+    margin-bottom: 2rem;
   }
   .item-product {
     min-width: 160px;
-    min-height: 170px;
+    min-height: 200px;
     padding: 0.5rem;
+    margin-bottom: 1.4rem;
   }
 
+  .item-product h4 {
+    font-size: 1.4rem;
+  }
+
+  .item-product p {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .item-product button {
+    font-size: 1rem;
+    padding: 4px 5px;
+    margin: 5px 0;
+  }
   .pop-up .img-pp {
     width: 300px;
+  }
+  .span-harga {
+    align-items: center;
+  }
+  .span-harga h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
   }
 
   .lemek .pop-up .btnpp {
@@ -160,5 +185,52 @@
 
   .lemek .pop-up .btnpp i {
     font-size: 3rem;
+  }
+
+  .pop-up .span-harga a .btn-chc {
+    font-size: 1.4rem;
+    padding: 3px 4px;
+  }
+}
+
+@media (max-width: 390px) {
+  .product .list-product {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .item-product {
+    justify-content: center;
+    min-width: 146px;
+    min-height: 200px;
+    margin-bottom: 1rem;
+  }
+  .list-product .item-product h4,
+  .search-list .item-product h4 {
+    font-size: 1.4rem;
+  }
+
+  .list-product .item-product p {
+    font-size: 1rem;
+  }
+
+  .item-product #listImage {
+    width: 100px;
+  }
+
+  .item-product h4 {
+    font-size: 1rem;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 135px;
+    text-align: center;
+  }
+  .lemek .pop-up .btnpp {
+    top: -8px;
+    right: -8px;
   }
 }

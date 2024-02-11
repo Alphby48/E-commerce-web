@@ -183,7 +183,13 @@ main .navbar ul .menu-down:hover .ul-down ul li {
   main .find .about {
     display: none;
   }
+  main .find .logo {
+    align-items: center;
+  }
 
+  main .find .logo h3 {
+    font-size: 2rem;
+  }
   main .find .bc-sc-bar {
     width: 100%;
     margin-top: 1rem;
@@ -195,6 +201,9 @@ main .navbar ul .menu-down:hover .ul-down ul li {
 
   main .find .search-bar input {
     width: 80%;
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 500;
   }
 
   main .find .search-bar button {

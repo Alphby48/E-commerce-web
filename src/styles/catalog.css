@@ -11,6 +11,9 @@ section .catalog {
   border-radius: 20px;
   border: 1px solid rgba(194, 191, 191, 0.543);
 }
+.catalog span {
+  display: none;
+}
 section .catalog h3 {
   font-size: 1.5rem;
   font-family: "Permanent Marker", cursive;
@@ -40,7 +43,37 @@ section .catalog ul li a img {
 }
 
 @media (max-width: 700px) {
-  .catalog {
-    display: none;
+  section .catalog {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0px;
+    width: 80%;
+    background-color: rgb(234, 246, 255);
+    z-index: 21;
+    font-size: 1.8rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    padding: 2rem;
+    transition: all 0.4s;
+    border-radius: 0;
+  }
+  .catalog span {
+    display: block;
+    position: absolute;
+    top: 5px;
+    font-size: 2.4rem;
+    color: rgb(255, 0, 0);
+    left: 5px;
+  }
+  section .catalog.geser {
+    right: 0;
+  }
+  section .catalog h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  section .catalog ul li a img {
+    width: 25px;
   }
 }

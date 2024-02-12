@@ -1,5 +1,4 @@
 import stores from "../database/store.js";
-
 class DataProduct {
   static searchProduct(keyword) {
     return new Promise((resolve, reject) => {
@@ -99,3 +98,5 @@ buttonFindElement.addEventListener("click", () => {
   onButtonSearchClicked();
   findListElement.style.display = "flex";
 });
+
+export default DataProduct;

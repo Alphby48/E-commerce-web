@@ -71,9 +71,56 @@ const stores = [
     harga: "1.752",
     link: "https://shope.ee/LOrQEsNhE",
   },
+  {
+    imgPrdt:
+      "https://down-bs-id.img.susercontent.com/ebe0c6dab920fc1d2bd329cb8e550193.webp",
+    jdlPrdt: "Troveast Tas Gym Tas Travel",
+    kategori: "tas aksesoris",
+    untuk: "pria wanita",
+    harga: "239.000",
+    link: "https://shope.ee/6pcQ1QhY9F",
+  },
+  {
+    imgPrdt:
+      "https://down-bs-id.img.susercontent.com/id-11134207-7qul2-leznxpw4qxmma4.webp",
+    jdlPrdt: "Barbee Jam Tangan Wanita Analog Barsh",
+    kategori: "tas aksesoris",
+    untuk: "wanita",
+    harga: "69.000",
+    link: "https://shope.ee/4prLeBMj6S",
+  },
+  {
+    imgPrdt:
+      "https://down-bs-id.img.susercontent.com/d51973af357efd7dabf17ea9694837d3.webp",
+    jdlPrdt: "Jam Tangan Pria Sport Quartz Men",
+    kategori: "tas aksesoris",
+    untuk: "pria",
+    harga: "10.750",
+    link: "https://shope.ee/7Us6pDVLFQ",
+  },
+  {
+    imgPrdt:
+      "https://down-bs-id.img.susercontent.com/sg-11134201-7rcdq-lrerhcpo6vy093.webp",
+    jdlPrdt: "Martinversa TR19 Tas Ransel Pria Backpack",
+    kategori: "tas aksesoris",
+    untuk: "pria",
+    harga: "55.680",
+    link: "https://shope.ee/2fmr4Y95xE",
+  },
+  {
+    imgPrdt:
+      "https://down-bs-id.img.susercontent.com/id-11134207-7r98x-lqlkihpqqt0005.webp",
+    jdlPrdt: "Sandal karet wanita gesper",
+    kategori: "sepatu sandal",
+    untuk: "wanita",
+    harga: "4.900",
+    link: "https://shope.ee/7Us6pa4esL",
+  },
   // {
   //   imgPrdt: "",
   //   jdlPrdt: "",
+  //   kategori: "",
+  //   untuk: "",
   //   harga: "",
   //   link: "",
   // },

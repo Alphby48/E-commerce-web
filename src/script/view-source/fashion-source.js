@@ -1,6 +1,6 @@
-import fashionData from "./data-source.js";
+import fashionData from "../view/data-source.js";
 const finding = async () => {
-  const datacari = "sepatu sandal";
+  const datacari = "pakaian";
   try {
     const result = await fashionData.searchfashion(datacari);
     renderResulting(result);
@@ -10,7 +10,7 @@ const finding = async () => {
 };
 
 const renderResulting = (results) => {
-  const ad = document.querySelector("#sandal");
+  const ad = document.querySelector("#fashion");
   ad.innerHTML = ``;
 
   results.forEach((store) => {
@@ -19,23 +19,23 @@ const renderResulting = (results) => {
     storeElement.setAttribute("class", "store");
 
     storeElement.innerHTML = `
-        <div class="item-product">
-      <img src="${imgPrdt}" alt="" id="listImages"/>
-      <h4>${jdlPrdt}</h4>
-      <p>Rp ${harga}</p>
-      <a href="${link}" target="_blank"><button>check&nbsp;and&nbsp;buy</button></a>
-        <div class="lemek">
-          <div class="pop-up">
-          <img src="${imgPrdt}" alt="" " class="img-pp"/>
-            <div class="span-harga">
-          <h5>Rp ${harga}</h5>
-          <a href="${link}" target="_blank"><button class="btn-chc">check&nbsp;and&nbsp;buy</button></a>
-            </div>
-            <p class="btnpp"><i class="fa-regular fa-circle-xmark"></i></p>
+      <div class="item-product">
+    <img src="${imgPrdt}" alt="" id="listImages"/>
+    <h4>${jdlPrdt}</h4>
+    <p>Rp ${harga}</p>
+    <a href="${link}" target="_blank"><button>check&nbsp;and&nbsp;buy</button></a>
+      <div class="lemek">
+        <div class="pop-up">
+        <img src="${imgPrdt}" alt="" " class="img-pp"/>
+          <div class="span-harga">
+        <h5>Rp ${harga}</h5>
+        <a href="${link}" target="_blank"><button class="btn-chc">check&nbsp;and&nbsp;buy</button></a>
           </div>
+          <p class="btnpp"><i class="fa-regular fa-circle-xmark"></i></p>
         </div>
-        </div>
-        `;
+      </div>
+      </div>
+      `;
 
     ad.appendChild(storeElement);
   });
@@ -58,11 +58,13 @@ const renderResulting = (results) => {
 const fallbackResulting = (message) => {
   ad.innerHTML = ``;
   ad.innerHTML += `
-        <h2 class="placeholder">${message}</h2>
-      `;
+      <h2 class="placeholder">${message}</h2>
+    `;
   document.querySelector(".btn-close").addEventListener("click", () => {
     ad.style.display = "none";
   });
 };
 
 document.addEventListener("DOMContentLoaded", finding);
+
+export default fashionData;

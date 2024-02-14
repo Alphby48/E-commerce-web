@@ -1,8 +1,13 @@
 .ad {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   padding: 2rem;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-product {
+  margin-bottom: 1rem;
 }
 .back-home {
   position: fixed;

@@ -3,7 +3,7 @@ const stores = [
     imgPrdt:
       "https://down-id.img.susercontent.com/file/id-11134207-7r98u-ln9j6qsgxjw9f6",
     jdlPrdt: "Erigo T-Shirt Marsha JKT48",
-    kategori: "kemeja kaos",
+    kategori: "pakaian",
     untuk: "pria wanita",
     harga: "199.000",
     link: "https://shopee.co.id/erigostore/20985424535",
@@ -39,8 +39,8 @@ const stores = [
     imgPrdt:
       "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/3/12/bbc181a9-c81c-45c3-971b-2431c5d5fa38.png",
     jdlPrdt: "Sepatu Sneakers Casual Pria Aerostreet",
-    kategori: "sepatu sandal",
-    untuk: "",
+    kategori: "alaskaki",
+    untuk: "pria",
     harga: "174.875",
     link: "https://tokopedia.link/sqNzz4xH2Gb",
   },
@@ -48,7 +48,7 @@ const stores = [
     imgPrdt:
       "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/1/13/ddb3499f-45f3-484f-a2ee-3d440bb30820.jpg",
     jdlPrdt: "Aerostreet T-Shirt Golden Samurai Navy Kaos",
-    kategori: "kemeja kaos",
+    kategori: "pakaian",
     untuk: "pria wanita",
     harga: "69.900",
     link: "https://tokopedia.link/9yXqBgRH2Gb",
@@ -57,8 +57,8 @@ const stores = [
     imgPrdt:
       "https://down-bs-id.img.susercontent.com/id-11134207-7r98u-lp09e0ocubt9aa.webp",
     jdlPrdt: "Jaket Hoodie Aerostreet Hitam Sweater",
-    kategori: "",
-    untuk: "",
+    kategori: "pakaian",
+    untuk: "pria",
     harga: "135.900",
     link: "https://shope.ee/603EAW52IV",
   },
@@ -111,10 +111,28 @@ const stores = [
     imgPrdt:
       "https://down-bs-id.img.susercontent.com/id-11134207-7r98x-lqlkihpqqt0005.webp",
     jdlPrdt: "Sandal karet wanita gesper",
-    kategori: "sepatu sandal",
+    kategori: "alaskaki",
     untuk: "wanita",
-    harga: "4.900",
+    harga: "24.900",
     link: "https://shope.ee/7Us6pa4esL",
+  },
+  {
+    imgPrdt:
+      "https://down-ws-id.img.susercontent.com/id-11134207-7r98u-llmwwkaynub7d3.webp",
+    jdlPrdt: "Make up Mean Girls Buy 3 Get 1 Free",
+    kategori: "kosmetik",
+    untuk: "wanita",
+    harga: "89.000",
+    link: "https://shope.ee/3L2ZHWv8Gg",
+  },
+  {
+    imgPrdt:
+      "https://down-ws-id.img.susercontent.com/id-11134201-7r98y-lrfoqtppdziq29.webp",
+    jdlPrdt: "Erigo T-Shirt Zee JKT48 Black By Imelda",
+    kategori: "pakaian",
+    untuk: "pria wanita",
+    harga: "129.000",
+    link: "https://shope.ee/7AFHqqiXYY",
   },
   // {
   //   imgPrdt: "",

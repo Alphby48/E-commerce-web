@@ -1,6 +1,6 @@
-import fashionData from "./data-source.js";
+import fashionData from "../view/data-source.js";
 const finding = async () => {
-  const datacari = "tas aksesoris";
+  const datacari = "kosmetik";
   try {
     const result = await fashionData.searchfashion(datacari);
     renderResulting(result);
@@ -10,7 +10,7 @@ const finding = async () => {
 };
 
 const renderResulting = (results) => {
-  const ad = document.querySelector("#aksesoris");
+  const ad = document.querySelector("#kosmetik");
   ad.innerHTML = ``;
 
   results.forEach((store) => {

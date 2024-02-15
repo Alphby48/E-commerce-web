@@ -3,11 +3,10 @@
   display: flex;
   flex-wrap: wrap;
   padding: 2rem;
-  justify-content: space-between;
   align-items: center;
 }
-.item-product {
-  margin-bottom: 1rem;
+.ad .item-product {
+  margin: 1rem 0.5rem;
 }
 .back-home {
   position: fixed;

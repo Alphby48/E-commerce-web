@@ -12,7 +12,7 @@ const stores = [
     imgPrdt:
       "https://down-aka-id.img.susercontent.com/14e8395f72d590b20eba7bb8417bf7c5.webp",
     jdlPrdt: "Jas Hujan Raincoat Anti Rembes Pria Wanita",
-    kategori: "",
+    kategori: "lain-lain",
     untuk: "",
     harga: "52.000",
     link: "https://shope.ee/5pjhcIxuQD",
@@ -21,7 +21,7 @@ const stores = [
     imgPrdt:
       "https://down-aka-id.img.susercontent.com/id-11134207-7r98u-lowh3ymbtny257.webp",
     jdlPrdt: "M10 TWS Headphone Wireless Bluetooth 5.3",
-    kategori: "",
+    kategori: "elektronik",
     untuk: "",
     harga: "38.999",
     link: "https://shope.ee/6zvjTPquCe",
@@ -30,7 +30,7 @@ const stores = [
     imgPrdt:
       "https://down-aka-id.img.susercontent.com/id-11134207-7r98w-lotktsfjyccpc1.webp",
     jdlPrdt: "HELM NJS KAIROZ HALF FACE KAIROS",
-    kategori: "",
+    kategori: "lain-lain",
     untuk: "",
     harga: "294.900",
     link: "https://shope.ee/B5PLD3dIp",
@@ -66,7 +66,7 @@ const stores = [
     imgPrdt:
       "https://down-bs-id.img.susercontent.com/id-11134207-7r98o-llknp6fpe4doe9.webp",
     jdlPrdt: "Photocard JKT48 Unofficial",
-    kategori: "",
+    kategori: "lain-lain",
     untuk: "",
     harga: "1.752",
     link: "https://shope.ee/LOrQEsNhE",
@@ -133,6 +133,24 @@ const stores = [
     untuk: "pria wanita",
     harga: "129.000",
     link: "https://shope.ee/7AFHqqiXYY",
+  },
+  {
+    imgPrdt:
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/10/12/afdc5e21-2fde-4783-95cf-13f3f72ad910.png",
+    jdlPrdt: "Tempat Penyimpanan Pisau",
+    kategori: "lain-lain",
+    untuk: "dapur",
+    harga: "129.000",
+    link: "https://tokopedia.link/rJvFTXawcHb",
+  },
+  {
+    imgPrdt:
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/8/21/4077fefa-01a0-4b0d-be3d-00a00c4dc33c.png",
+    jdlPrdt: "Panci Stainless Zebra Sauce Pan 20 Cm",
+    kategori: "lain-lain",
+    untuk: "dapur",
+    harga: "155.000",
+    link: "https://tokopedia.link/QX2Ci4ywcHb",
   },
   // {
   //   imgPrdt: "",

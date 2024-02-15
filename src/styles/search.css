@@ -103,6 +103,11 @@ main .navbar ul li a:hover::after {
 main .navbar ul li a {
   text-decoration: none;
   position: relative;
+  color: rgb(30, 202, 245);
+}
+
+main .navbar ul li a:hover {
+  color: rgb(174, 0, 255);
 }
 
 main .navbar ul .menu-down i {

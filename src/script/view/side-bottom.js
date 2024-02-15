@@ -1,3 +1,4 @@
+import "./../component/mobile.js";
 document.querySelector(".gaktau").addEventListener("click", () => {
   document.querySelector(".sb-mobile").classList.toggle("cokr");
 });
@@ -34,3 +35,11 @@ const tttgr = "geser";
 
 kelik(clk1, clk2, tttgr);
 klikDalam(clk3, clk2, tttgr);
+
+document.querySelector(".come").addEventListener("click", () => {
+  document.querySelector(".dip").style.display = "flex";
+});
+
+document.querySelector(".dibtn").addEventListener("click", () => {
+  document.querySelector(".dip").style.display = "none";
+});

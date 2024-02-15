@@ -1,6 +1,7 @@
 import "./view/produk-source.js";
 import "./view/search-source.js";
 import "./view/side-bottom.js";
+import "./component/mobile.js";
 
 const main = () => {
   let slideIndex = 1;

@@ -10,7 +10,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 5px;
+    padding: 10px 5px;
     width: 100%;
     z-index: 111;
   }
@@ -67,6 +67,7 @@
   .sb-mobile .ul-navigasi li a {
     text-decoration: none;
     text-transform: capitalize;
+    color: rgb(0, 174, 255);
   }
 
   .sb-mobile .ul-navigasi .menu-mobile a i {
@@ -87,6 +88,7 @@
     list-style: none;
     font-size: 1.6rem;
   }
+
   .sb-mobile .ul-social {
     display: flex;
     justify-content: space-evenly;
@@ -112,5 +114,34 @@
   .sb-mobile .ul-social li a:hover {
     background-color: hsl(353, 100%, 78%);
     color: white;
+  }
+
+  .dip {
+    position: fixed;
+    top: 30%;
+    left: 5%;
+    right: 5%;
+    padding: 1rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 39, 39);
+  }
+  .dip h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 400;
+  }
+  .dip button {
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: rgb(174, 83, 235);
+    color: white;
+    border: none;
   }
 }

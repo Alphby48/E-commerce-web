@@ -78,10 +78,12 @@
       </div>
       <div class="navbar">
         <ul>
-          <li><a href="">home</a></li>
+          <li><a href="#">home</a></li>
           <li><a href="#product">produk</a></li>
           <li class="menu-down">
-            <a href="">category&nbsp;<i class="fa-solid fa-caret-right"></i></a>
+            <a href="#product"
+              >category&nbsp;<i class="fa-solid fa-caret-right"></i
+            ></a>
             <div class="ul-down">
               <ul>
                 <li>
@@ -89,74 +91,24 @@
                     >male&nbsp;fashion</a
                   >
                 </li>
-                <li><a href="">female&nbsp;fashion</a></li>
-                <li><a href="">kitchen&nbsp;tool</a></li>
-                <li><a href="">electronic</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="">contact</a></li>
-        </ul>
-      </div>
-      <div class="sidebar-mobile">
-        <div class="side-bottom">
-          <i class="fa-solid fa-bars gaktau"></i>
-          <a href=""><i class="fa-solid fa-user"></i></a>
-          <a href=""><i class="fa-solid fa-house"></i></a>
-          <i class="fa-solid fa-bag-shopping tas"></i>
-        </div>
-      </div>
-      <div class="sb-mobile">
-        <span><i class="fa-regular fa-circle-xmark"></i></span>
-        <h1>menu</h1>
-        <ul class="ul-navigasi">
-          <li><a href="">home</a></li>
-          <li><a href="#product">produk</a></li>
-          <li class="menu-mobile">
-            <a href="#"
-              >category&nbsp;<i class="fa-solid fa-caret-right"></i
-            ></a>
-            <div class="ul-navigasi-down">
-              <ul>
                 <li>
-                  <a href="src/index/index-category/male.html"
-                    >male&nbsp;fashion</a
+                  <a href="src/index/index-category/female.html"
+                    >female&nbsp;fashion</a
                   >
                 </li>
-                <li><a href="#">female&nbsp;fashion</a></li>
-                <li><a href="#">kitchen&nbsp;tool</a></li>
-                <li><a href="#">electronic</a></li>
+                <li>
+                  <a href="src/index/index-category/dapur.html"
+                    >kitchen&nbsp;tool</a
+                  >
+                </li>
+                <li><a href="src/index/elektronik.html">electronic</a></li>
               </ul>
             </div>
           </li>
           <li><a href="">contact</a></li>
         </ul>
-
-        <ul class="ul-social">
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-tiktok"></ion-icon>
-            </a>
-          </li>
-        </ul>
       </div>
+      <mobile-scale></mobile-scale>
       <div class="slider-container">
         <div class="slide fade">
           <img
@@ -223,7 +175,7 @@
       </div>
     </main>
     <section>
-      <div class="catalog">
+      <div class="catalog" id="ctl">
         <span><i class="fa-regular fa-circle-xmark"></i></span>
         <h3>catalog</h3>
         <ul>
@@ -234,7 +186,7 @@
           </li>
           <li>
             <a href="src/index/alaskaki.html"
-              ><img src="src/asset/icons/dress.svg" alt="" />alas kaki</a
+              ><img src="src/asset/icons/shoes.svg" alt="" />alas kaki</a
             >
           </li>
           <li>
@@ -248,7 +200,7 @@
             >
           </li>
           <li>
-            <a href=""
+            <a href="src/index/elektronik.html"
               ><img
                 src="src/asset/icons/elektronik-removebg-preview.png"
                 alt=""
@@ -256,7 +208,7 @@
             >
           </li>
           <li>
-            <a href=""
+            <a href="src/index/lainl-lain.html"
               ><img src="src/asset/icons/quotes.svg" alt="" />lain-lain</a
             >
           </li>
@@ -264,14 +216,7 @@
       </div>
       <div class="product" id="product">
         <h3>produk</h3>
-        <div class="list-product">
-          <!-- <div class="item-product">
-            <img src="src/asset/img/3.jpg" alt="" />
-            <h4>hodie cowok keren</h4>
-            <p>Rp 112.000</p>
-            <button>check&nbsp;and&nbsp;buy</button>
-          </div> -->
-        </div>
+        <div class="list-product"></div>
       </div>
     </section>
     <script
@@ -282,7 +227,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <!-- <script src="src/script/main.js"></script> -->
     <script src="app.js" type="module"></script>
   </body>
 </html>
